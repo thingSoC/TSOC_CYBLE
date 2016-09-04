@@ -2,7 +2,7 @@
 
 A thingSoC Adapter board for the Cypress Semiconductor CYBLE022-001 BLTE Radio Module.
 
-[![thingSoC TSOC_CYBLE](https://raw.githubusercontent.com/thingSoC/TSOC_CYBLE/master/TSOC_CYBLE/images/TSOC_CYBLE_iso.png?raw=true)TSOC_CYBLE](https://github.com/thingSoC/TSOC_CYBLE)
+[![thingSoC TSOC_CYBLE](https://github.com/thingSoC/TSOC_CYBLE/blob/master/TSOC_CYBLE/images/product/TSOC_CYBLE.png?raw=true)TSOC_CYBLE](https://github.com/thingSoC/TSOC_CYBLE)
 
 **thingSoC Reference Designs** are example thingSoC implementations that implement
 various reference and testing circuits for demonstrating the use of the thingSoC libraries.
