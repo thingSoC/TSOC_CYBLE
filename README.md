@@ -2,7 +2,7 @@
 
 A thingSoC Adapter board for the Cypress Semiconductor CYBLE022-001 BLTE Radio Module.
 
-[![thingSoC TSOC_CYBLE](https://github.com/thingSoC/TSOC_CYBLE/blob/master/TSOC_CYBLE/images/product/TSOC_CYBLE.png?raw=true)TSOC_CYBLE](https://github.com/thingSoC/TSOC_CYBLE)
+[![thingSoC TSOC_CYBLE](https://github.com/thingSoC/TSOC_CYBLE/blob/master/TSOC_CYBLE/images/TSOC_CYBLE_top.png?raw=true)TSOC_CYBLE](https://github.com/thingSoC/TSOC_CYBLE)
 
 **thingSoC Reference Designs** are example thingSoC implementations that implement
 various reference and testing circuits for demonstrating the use of the thingSoC libraries.
@@ -14,7 +14,7 @@ These reference designs can serve as starting templates for user designs.
 
 
 
-[![thingSoC TSOC_CYBLE](https://raw.githubusercontent.com/thingSoC/TSOC_CYBLE/master/TSOC_CYBLE/images/TSOC_CYBLE_top.png?raw=true)*TSOC_CYBLE*](https://github.com/thingSoC/TSOC_CYBLE)
+[![thingSoC TSOC_CYBLE](https://github.com/thingSoC/TSOC_CYBLE/blob/master/TSOC_CYBLE/images/TSOC_CYBLE_iso.png?raw=true)*TSOC_CYBLE*](https://github.com/thingSoC/TSOC_CYBLE)
 
 ---------------------------------------
 
@@ -24,7 +24,9 @@ Under the "examples" directory are several Arduino IDE examples for using the TS
 Using the Arduino "Wire" library for I2C communications, it is simple to control the TSOC_CYBLE
 
 ```c
- 
+
+ coming soon...
+
  
 ```
 
@@ -37,9 +39,9 @@ In order to reprogram the Cypress PSoC4 device, you will need to download and in
 
 Select Tools -> Bootloader Host 
 
-Then select the hex (cyacd) file that you wish to program, and the COM: port of your device. Proess the "Upload" button to reflash teh device.
+Then select the hex (cyacd) file that you wish to program, and the COM: port of your device. Proess the "Upload" button to reflash the device.
 
-[![thingSoC TSOC_CYBLE](https://raw.githubusercontent.com/thingSoC/TSOC_CYBLE/master/TSOC_CYBLE/images/product/TSOC_CYBLE_bootloader.png?raw=true)PSoC Creator Bootloader Host](https://github.com/thingSoC/TSOC_CYBLE)
+[![thingSoC TSOC_CYBLE](https://raw.githubusercontent.com/thingSoC/TSOC_CYBLE/master/TSOC_CYBLE/images/product/psoc_bootloader.png?raw=true)PSoC Creator Bootloader Host](https://github.com/thingSoC/TSOC_CYBLE)
 
 
 ---------------------------------------
