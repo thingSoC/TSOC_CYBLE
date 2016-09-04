@@ -16904,6 +16904,7 @@ Now with smashable polarity marks!</description>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$16" library="PatternAgents-Beautify" deviceset="GND" device=""/>
+<part name="D2" library="Seeed-Diode-2016" deviceset="SMD-DIODE-SCHOTTKY-20V-1A(SOD-123)" device="" value="20V-1A"/>
 <part name="D1" library="Seeed-Diode-2016" deviceset="SMD-DIODE-SCHOTTKY-20V-1A(SOD-123)" device="" value="20V-1A"/>
 <part name="BOOT" library="TSOC_GROVEY_WIFI" deviceset="SMD-BUTTON-TOP-DHT-4235A(4P-4.2X3.2MM)" device="" value="DHT-4235A"/>
 <part name="C3" library="Seeed-Capacitor-2016" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
@@ -16993,6 +16994,7 @@ Open Source Sockets for IoT</text>
 <instance part="GND5" gate="1" x="434.34" y="96.52"/>
 <instance part="GND12" gate="1" x="406.4" y="96.52"/>
 <instance part="U$16" gate="G$1" x="398.78" y="99.06"/>
+<instance part="D2" gate="G$1" x="386.08" y="127"/>
 <instance part="D1" gate="G$1" x="386.08" y="116.84"/>
 <instance part="BOOT" gate="G$1" x="55.88" y="327.66"/>
 <instance part="C3" gate="G$1" x="469.9" y="109.22" rot="R90"/>
@@ -17282,22 +17284,9 @@ Open Source Sockets for IoT</text>
 <label x="104.14" y="129.54" size="1.27" layer="95" font="vector" ratio="9" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="IN"/>
-<wire x1="414.02" y1="124.46" x2="398.78" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="111.76" x2="398.78" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="116.84" x2="398.78" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="119.38" x2="398.78" y2="124.46" width="0.1524" layer="91"/>
-<junction x="398.78" y="124.46"/>
-<junction x="398.78" y="119.38"/>
-<pinref part="U1" gate="G$1" pin="EN"/>
-<wire x1="398.78" y1="119.38" x2="414.02" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="124.46" x2="398.78" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="139.7" x2="472.44" y2="139.7" width="0.1524" layer="91"/>
-<label x="472.44" y="139.7" size="1.27" layer="95" ratio="10" xref="yes"/>
-<junction x="398.78" y="116.84"/>
-<wire x1="389.89" y1="116.84" x2="398.78" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="-"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<label x="373.38" y="127" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
+<pinref part="D2" gate="G$1" pin="+"/>
+<wire x1="382.27" y1="127" x2="373.38" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -17382,6 +17371,30 @@ Open Source Sockets for IoT</text>
 <wire x1="431.8" y1="114.3" x2="434.34" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="434.34" y1="114.3" x2="434.34" y2="113.03" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="VIN" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<wire x1="414.02" y1="124.46" x2="398.78" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="111.76" x2="398.78" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="116.84" x2="398.78" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="119.38" x2="398.78" y2="124.46" width="0.1524" layer="91"/>
+<junction x="398.78" y="124.46"/>
+<junction x="398.78" y="119.38"/>
+<pinref part="U1" gate="G$1" pin="EN"/>
+<wire x1="398.78" y1="119.38" x2="414.02" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="124.46" x2="398.78" y2="127" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="127" x2="398.78" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="139.7" x2="472.44" y2="139.7" width="0.1524" layer="91"/>
+<label x="472.44" y="139.7" size="1.27" layer="95" ratio="10" xref="yes"/>
+<junction x="398.78" y="116.84"/>
+<wire x1="389.89" y1="116.84" x2="398.78" y2="116.84" width="0.1524" layer="91"/>
+<junction x="398.78" y="127"/>
+<pinref part="D2" gate="G$1" pin="-"/>
+<wire x1="389.89" y1="127" x2="398.78" y2="127" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="-"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VCC" class="0">
