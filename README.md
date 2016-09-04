@@ -4,14 +4,13 @@ A thingSoC Adapter board for the Cypress Semiconductor CYBLE022-001 BLTE Radio M
 
 [![thingSoC TSOC_CYBLE](https://github.com/thingSoC/TSOC_CYBLE/blob/master/TSOC_CYBLE/images/TSOC_CYBLE_top.png?raw=true)TSOC_CYBLE](https://github.com/thingSoC/TSOC_CYBLE)
 
-**thingSoC Reference Designs** are example thingSoC implementations that implement
-various reference and testing circuits for demonstrating the use of the thingSoC libraries.
-These reference designs can serve as starting templates for user designs.
+The thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
+thingSoC boards are similar in size to most break-out-boards (BOBs), but feature a standardized stacking pinout, as well as an I2C metadata store (EEPROM)
+to indicate what peripherals are installed.
 
 ---------------------------------------
 
 ## TSOC_CYBLE Application Pictures
-
 
 
 [![thingSoC TSOC_CYBLE](https://github.com/thingSoC/TSOC_CYBLE/blob/master/TSOC_CYBLE/images/TSOC_CYBLE_iso.png?raw=true)*TSOC_CYBLE*](https://github.com/thingSoC/TSOC_CYBLE)
