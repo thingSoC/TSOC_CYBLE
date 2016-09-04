@@ -32,7 +32,7 @@ Using the Arduino "Wire" library for I2C communications, it is simple to control
 ---------------------------------------
 ## TSOC_CYBLE Programming
 
-You can reprogram the board using any Grove UART adapter :
+You can reprogram the board using any USB to UART adapter :
 
 In order to reprogram the Cypress PSoC4 device, you will need to download and install the PSoC Creator tool, which includes a serial bootloader host application.
 
